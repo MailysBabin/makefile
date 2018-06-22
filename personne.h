@@ -1,9 +1,9 @@
-#if ndef PERSONNE_H
+#ifndef PERSONNE_H
 #define PERSONNE_H
-
+typedef struct Personne personne;
 struct Personne{
 int age;
 char name[20];
-} personne;
-void Display Personne(personne p);
+};
+void DisplayPersonne(personne p);
 #endif
