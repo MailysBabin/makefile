@@ -1,0 +1,19 @@
+#include <stdbool>
+typedef struct Personne personne
+struct Personne{
+       int age;
+       int nom;
+       bool is Dead;
+};
+
+int main(){
+struct Personne p;
+       p.nom = "Pierre";
+       p.age = 10;
+personne n = {2000, "Bob", false};
+personne t = p;
+p.age +=1;
+
+printf("%s, %d", p.nom p.age);
+printf("%s, %d", n.nom n.age);
+printf("%s, %d", t.nom t.age);
