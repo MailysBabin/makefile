@@ -1,3 +1,3 @@
-personne: personne.c personne.c
-	gcc -o Personne personne.c personne.c -I
+personne: main.c personne.c
+	gcc -o personne main.c personne.c -I.
 

@@ -1,5 +1,5 @@
 #include "Personne.h"
-
-void Display Personne(personne p){
+#include <stdio.h>
+void DisplayPersonne(personne p){
 printf(p.name);
 }
